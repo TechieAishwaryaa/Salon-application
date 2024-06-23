@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "389189548813",
+    "firebase_url": "https://userinfo-de5ab-default-rtdb.firebaseio.com",
+    "project_id": "userinfo-de5ab",
+    "storage_bucket": "userinfo-de5ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389189548813:android:12fb9dda9d619e1ff60e44",
+        "android_client_info": {
+          "package_name": "com.example.gajraj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389189548813-log8ih4pob7smag1v562r1ca36rv45dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQBavBQ8aJShqrfh3st4laykGslUQgu14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389189548813-log8ih4pob7smag1v562r1ca36rv45dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

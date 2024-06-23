@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LadiesFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="460dp"
+            android:layout_marginRight="20dp"
+
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.617">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#F1286C"
+                    android:drawableTop="@drawable/hair1"
+                    android:onClick="showhair"
+                    android:text="HAIR"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#F1286C"
+                    android:drawableTop="@drawable/makeup1"
+                    android:onClick="showmakeup"
+                    android:text="makeup"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#F1286C"
+                    android:drawableTop="@drawable/facial"
+                    android:onClick="showfacial"
+                    android:text="facial"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#F1286C"
+                    android:drawableTop="@drawable/manicure"
+                    android:onClick="showmanicure"
+                    android:text="manicure"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#F1286C"
+                    android:drawableTop="@drawable/pedicure"
+                    android:onClick="showpedicure"
+                    android:text="Pedicure"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:backgroundTint="#F1286C"
+                    android:drawableTop="@drawable/waxing"
+                    android:onClick="showwaxing"
+                    android:text="Waxing"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bottombg1"
+            app:layout_constraintBottom_toBottomOf="parent"></TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

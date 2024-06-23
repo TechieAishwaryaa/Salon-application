@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainpage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@color/black"
+            android:src="@drawable/logo1"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="serif"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:fontFamily="serif"></TextView>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bag"
+                android:onClick="booked"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="240dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="418dp"
+        android:layout_height="354dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.232">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <ViewFlipper
+                android:id="@+id/v1"
+                android:layout_width="418dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp">
+
+            </ViewFlipper>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="272dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="344dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.421">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#D4AF37"
+                android:drawableTop="@drawable/productslogo"
+                android:onClick="products"
+                android:text="Products"
+                android:textSize="15dp"
+                app:cornerRadius="20dip"></Button>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#D4AF37"
+                android:drawableTop="@drawable/serviceslogo"
+                android:onClick="services"
+                android:text="Services"
+                android:textSize="15dp"
+                app:cornerRadius="20dip"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D4AF37"
+                android:drawableTop="@drawable/profile"
+                android:onClick="account"
+                android:text="View Account"
+                android:textSize="15dp"
+
+                app:cornerRadius="20dip"></Button>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D4AF37"
+                android:drawableTop="@drawable/appoinment"
+                android:onClick="appoint"
+                android:text="Appointment"
+                android:textSize="15dp"
+                app:cornerRadius="20dip"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bottombg1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

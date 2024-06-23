@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAF5F5"
+    tools:context=".GentsFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="571dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.831">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="150dp"
+                    android:backgroundTint="#03A9F4"
+                    android:drawableTop="@drawable/ghairlogo"
+                    android:onClick="showghair"
+                    android:text="HAIR"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="150dp"
+                    android:backgroundTint="#03A9F4"
+                    android:drawableTop="@drawable/gbeardlogo"
+                    android:onClick="showgbeard"
+                    android:text="BEARD"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#03A9F4"
+                    android:drawableTop="@drawable/gfaciallogo"
+                    android:onClick="showgfacial"
+                    android:text="facial"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#03A9F4"
+                    android:drawableTop="@drawable/gmassagelogo"
+                    android:onClick="showgmassage"
+                    android:text="massage"
+                    android:textAlignment="center"
+                    android:textSize="20sp"></Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/bottombg1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.995"
+            tools:layout_editor_absoluteX="0dp"></TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

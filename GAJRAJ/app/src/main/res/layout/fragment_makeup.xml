@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MakeupFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m1">
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/hudafoundation"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Huda Beauty Liquid Foundation Rs.750"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        ></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m2">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_x="200dp"
+                        android:layout_y="10dp"
+                        android:src="@drawable/hudacompact"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Huda Beauty Compact Powder Rs.499"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="240dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m3">
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/lakmemattee"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Lakme Mattee Rs.400"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m4">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/lakmelipstick"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="9 to 5 Primer+Mattee Lip color Rs.314"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="460dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m5">
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sugareye"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Sugar Eye Liner \nRs.699"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m6">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/sugarmascara"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Sugar Mascara \nRs.849"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="680dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m7">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sugareyeshadow"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Sugar Eye Shadow \nRs.529"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="680dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m8">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/lakmekajal"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Lakme Eyeconic Kajal Rs.170"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="900dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m9">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/fitmekit"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="FIT ME Foundation+ Compact Rs.441"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="900dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/m10">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/sugarlip"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Sugar Lip Stick \nRs.274"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:layout_marginTop="1150dp"
+                    android:text=""
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:background="#070707"
+                    ></TextView>
+
+
+
+
+
+            </RelativeLayout></LinearLayout>
+    </ScrollView>
+</LinearLayout>

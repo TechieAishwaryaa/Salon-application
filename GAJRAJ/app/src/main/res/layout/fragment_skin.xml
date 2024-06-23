@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".SkinFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="50dp"
+                    android:id="@+id/s1">
+
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/neemfacewash"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Everyuth Neem face wash Rs.157"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s2">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_x="200dp"
+                        android:layout_y="10dp"
+                        android:src="@drawable/naturesscrub"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Natures face scrub Rs.194"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="240dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s3">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/goldscrub"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Natures gold cleansing scrub Rs.350"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s4">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/vlccfacemask"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="VLCC face mask \nRs.299"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="460dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s5">
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/vlccskincream"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="VLCC Skin Whitening Face Mask Rs.151"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s6">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/oliviafacepack"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Olivia Face Mask \nRs.425"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="680dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s7">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/vlcccleanupkit"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="VLCC Facial Kit \nRs.257"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="680dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s8">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/shahnaaz"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Shahnaz Husain Gold Scrub  Rs.1299"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="900dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s9">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/shahnaazdaycreme"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Shahnaz Husain Day Creme Rs.725"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="900dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/s10">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ozonegel"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Ozone Radiance Glo Gel Rs.239"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:layout_marginTop="1150dp"
+                    android:text=""
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:background="#070707"
+                    ></TextView>
+
+
+
+
+            </RelativeLayout></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".GBeardFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+   <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            android:id="@+id/c1">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="143dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/french"></ImageView>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="130dp"
+                android:text="FRENCH BEARD"
+                android:id="@+id/text1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="130dp"
+                android:text="This style can be casual or professional, depending on how you want style it.
+                                                                   "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="50dp"
+                android:layout_marginLeft="270dp"
+                android:gravity="right"
+                android:layout_marginTop="110dp"
+                android:text="60"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="322dp"
+                android:layout_marginTop="110dp"
+                android:gravity="left"
+                android:text="Rs"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+           app:cardCornerRadius="20dp"
+           app:cardElevation="50dp"
+           android:id="@+id/c2">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/shortstubble"></ImageView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="SHORT STUBBLE BEARD"
+            android:id="@+id/text3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="130dp"
+            android:text="This beard style gives you nice and clean look and this beard style newbies
+                                                                   "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+           <TextView
+               android:id="@+id/text4"
+               android:layout_width="50dp"
+               android:layout_marginLeft="270dp"
+               android:gravity="right"
+               android:layout_marginTop="110dp"
+               android:text="80"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:textSize="15sp"
+               android:layout_height="30dp"/>
+           <TextView
+               android:layout_width="20dp"
+               android:layout_height="30dp"
+               android:layout_marginLeft="322dp"
+               android:layout_marginTop="110dp"
+               android:gravity="left"
+               android:text="Rs"
+               android:textColor="@color/black"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp"
+        android:id="@+id/c3">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/shortboxed"></ImageView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="SHORT BOXED BEARD"
+            android:id="@+id/text5"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="130dp"
+            android:text="This short beard style is for those looking for a professional look rather than a laid-back one
+                                                                      "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="50dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="270dp"
+            android:gravity="right"
+            android:text="60"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="322dp"
+            android:layout_marginTop="110dp"
+            android:gravity="left"
+            android:text="Rs"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            android:id="@+id/c4">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/fullgoatee"></ImageView>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="5dp"
+                android:text="FULL GOATEE BEARD"
+                android:id="@+id/text7"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="50dp"
+                android:text="This style is low maintenance, and needing regular tidy up of the cheeks
+                                                                    "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="50dp"
+                android:layout_marginLeft="270dp"
+                android:gravity="right"
+                android:layout_marginTop="110dp"
+
+                android:text="80"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="322dp"
+                android:layout_marginTop="110dp"
+                android:gravity="left"
+                android:text="Rs"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            android:id="@+id/c5">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/circle"></ImageView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="CIRCLE BEARD"
+            android:id="@+id/text9"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="130dp"
+            android:text="This beard style will provide a clean look to your appearance.
+                                                                                                           "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="50dp"
+                android:layout_marginLeft="270dp"
+                android:gravity="right"
+                android:layout_marginTop="110dp"
+
+                android:text="80"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="322dp"
+                android:layout_marginTop="110dp"
+                android:gravity="left"
+                android:text="Rs"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp"
+        android:id="@+id/c6">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/muttonchop"></ImageView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="MUTTON CHOP BEARD"
+            android:id="@+id/text11"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="130dp"
+            android:text="This beard style will give you a very intense and unique look
+                                                                    "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="50dp"
+            android:layout_marginLeft="270dp"
+            android:gravity="right"
+            android:layout_marginTop="110dp"
+
+            android:text="60"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="322dp"
+            android:layout_marginTop="110dp"
+            android:gravity="left"
+            android:text="Rs"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp"
+        android:id="@+id/c7">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/anchor"></ImageView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="ANCHOR BEARD"
+            android:id="@+id/text13"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="130dp"
+            android:text="This beard style is almost suitable for all face shapes it is acceptable match for an oblong face shape
+                                                                      "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="50dp"
+            android:layout_marginLeft="270dp"
+            android:gravity="right"
+            android:layout_marginTop="130dp"
+            android:text="80"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="322dp"
+            android:layout_marginTop="130dp"
+            android:gravity="left"
+            android:text="Rs"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="170dp"></TextView>
+    </LinearLayout>
+   </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

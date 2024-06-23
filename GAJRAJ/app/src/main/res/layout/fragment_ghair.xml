@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".GhairFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c1">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/shorthair1"></ImageView>
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="SHORT HAIR+FRINGE CUT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="Its easy to maintain.The advantage is of clean-cut hairstyle for men"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="110dp"
+                    android:gravity="right"
+                    android:text="100"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="110dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="190dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c2">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/oneside1"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="ONESIDE CUT"
+                    android:id="@+id/text3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="It gives very pretty look and traditional fashion to give the side part."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="110dp"
+                    android:gravity="right"
+                    android:text="120"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="110dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c3">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/textured"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="HIGH TEXTURED"
+                    android:id="@+id/text5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="Textured hair adds separation and definition in the hair to create different lengths or layers within it.
+                                                                     "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="right"
+                    android:text="120"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="520dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c4">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/spiky"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="SPIKY CUT"
+                    android:id="@+id/text7"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="It is a perfect style to enhance your hairline and help your face look slimmer
+                                                                                                                  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="right"
+                    android:text="120"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="690dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/soldiercut"></ImageView>
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="SOLDIER CUT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="This cut is perfect for every men and it is very easy to manage
+                                                                   "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="112dp"
+                    android:gravity="right"
+                    android:text="100"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="112dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="850dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c6">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/zero"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="ZERO CUT"
+                    android:id="@+id/text11"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="A zero haircut will allow you to change the direction of hair growth
+                                                                "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="125dp"
+                    android:gravity="right"
+                    android:text="100"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="125dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1015dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c7">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/highfed"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="HIGH FED CUT"
+                    android:id="@+id/text13"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="The High fade cut typically starts around your temples or forehead,and gives dramatic look
+                                                                                                             "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="129dp"
+                    android:gravity="right"
+                    android:text="120"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="129dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="1175dp"></TextView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+

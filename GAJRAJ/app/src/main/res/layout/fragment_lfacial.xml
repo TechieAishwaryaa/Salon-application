@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LfacialFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="154dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/threading"></ImageView>
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="THREADING"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="45dp"
+                    android:text="Threading does the job of removal of hairs correctly without irritating or peeling off the skin.\n
+                                             "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="right"
+                    android:text="50"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="170dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c2">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="162dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/bleaching"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="BLEACHING"
+                    android:id="@+id/text3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="Skin bleaching  reduces dark spots on the skin caused by sun damage,aging.Reduces the acne scars.gives lighter appearance.
+                                                       "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="right"
+                    android:text="150"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c3">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/skinbrightening"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="SKIN BRIGHTENING"
+                    android:id="@+id/text5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="It neutrilizes free radicals,boosts immunity and also helps in detoxification of the skin.targets dark spots and dull skin.
+                                                         "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="right"
+                    android:text="500"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="540dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="158dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/facetreatment"></ImageView>
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="FACE TREATMENT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="45dp"
+                    android:text="Face treatments will cleanse your skin from pollutants, which will help to rejuenate it and improve its texture and tones.
+                                             "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="125dp"
+                    android:gravity="right"
+                    android:text="5000"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="125dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="720dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c5">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="147dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/goldfacial"></ImageView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="GOLD FACIAL"
+                    android:id="@+id/text9"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="Gold facial reduces inflammation and redness. Protexts against free radicals.Brightens complexion
+                                              "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="125dp"
+                    android:gravity="right"
+                    android:text="1000"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="125dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="890dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c6">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/papayafacial"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="PAPAYA FACIAL"
+                    android:id="@+id/text11"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="due to presence of papain in papaya it promotes healing of the skin and also enhance the secretion of collagen
+              "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="right"
+                    android:text="800"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1070dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c7">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/pearlfacial"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="PEARL FACIAL"
+                    android:id="@+id/text13"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="Pearl facial has pearl ashes that work superbly in removing the suntan and dullness.Anti-aging facial avoids wrinkles and fine lines
+                                              \n                                   "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="right"
+                    android:text="2000"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1260dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c8">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/o2facial"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="O2 Facial"
+                    android:id="@+id/text15"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="Oxygen facial make you skin look and feel more hydrated.Reduces wrinklesa nd blemishes skin.safe for all skin types.
+                                           "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text16"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="right"
+                    android:text="6000"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1470dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/c9">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/diamondfacial"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="DIAMOND FACIAL"
+                    android:id="@+id/text17"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="45dp"
+                    android:text="Diamond facial is good antiaging procedure.It is also good for tightening and firming up the skin.
+                                            "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text18"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="right"
+                    android:text="7000"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="1650dp"
+                android:background="#070707"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="40dp"></TextView>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".HairFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c1">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/hairserum"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Loreal Serum \nRs.239"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c2">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_x="200dp"
+                        android:layout_y="10dp"
+                        android:background="@drawable/lorealshampoo"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Loreal sulphate free shampoo Rs.200"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="240dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c3">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/lorealextenso"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+
+                        android:layout_marginTop="160dp"
+                        android:text="Loreal Extenso Shampoo Rs.579"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c4">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/goorejserum"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Goorej hair serum spray Rs.275"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="460dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c5">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/hairnourish"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Loreal Hair nourishing creme Rs.400"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c6">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_x="200dp"
+                        android:layout_y="10dp"
+                        android:background="@drawable/lorealconditioner"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Loreal conditioner \nRs.225"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="680dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c7">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/enzo"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="ENZO Hair spray \nRs.359"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="680dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c8">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/lotusonionoil"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Lotus herbals red onion oil  Rs.495"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="900dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c9">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/treseme"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Treseme shampoo+ conditioner Rs.901"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="900dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/c10">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/livon"></ImageView>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="160dp"
+                        android:text="Livon hair serum  \nRs.274"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"></TextView></androidx.cardview.widget.CardView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:layout_marginTop="1150dp"
+                    android:text=""
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:background="#070707"
+                    ></TextView>
+
+
+
+
+            </RelativeLayout></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

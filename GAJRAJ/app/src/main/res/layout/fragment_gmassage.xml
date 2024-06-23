@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".GmassageFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo1"
+            android:background="@color/black"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+                android:textStyle="bold"
+                android:text="GAJRAJ"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:fontFamily="serif"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:background="#070707"
+
+                android:text="Salon and Spa"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:fontFamily="serif"></TextView></LinearLayout></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c1">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="152dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/swedish"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="SWEDISH MASSAGE"
+                    android:id="@+id/text1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="It can help release muscle knots,it’s also a good choice for when you want to fully relax during a massage
+                                                                "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="left"
+                    android:text="500"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="180dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="152dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/hotstone"></ImageView>
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="HOT STONE MASSAGE"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Hot stone massage is best for people who have muscle pain and tension or who simply want to relax.
+                               "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="right"
+                    android:text="1000"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="340dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="162dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/aromatherapy"></ImageView>
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="AROMATHERAPY MASSAGE"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Aromatherapy massages are best for people who enjoy scent and want to have an emotional healing component to their massage
+                                                                    "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="right"
+                    android:text="1000"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="520dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/deeptissue"></ImageView>
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="DEEP TISSUE MASSAGE"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Deep tissue massage uses more pressure than a Swedish massage. It’s a good option if you have muscle problems
+                                                                    "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="right"
+                    android:text="2000"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="700dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="152dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/sport"></ImageView>
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="SPORT MASSAGE"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Sports massage is a good option if you have a repetitive use injury to a muscle, such as what you may get from playing a sport.
+                                                                     "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="122dp"
+                    android:gravity="right"
+                    android:text="1500"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="122dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="860dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/triggerpoint"></ImageView>
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="TRIGGER POINT MASSAGE"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="55dp"
+                    android:text="Trigger point massage is best suited for people who have injuries, chronic pain, or a specific issue or condition.
+                                                                     "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="right"
+                    android:text="1500"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1050dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="161dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/reflexologomassage"></ImageView>
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:text="REFLEXOLOGY MASSAGE"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Reflexology uses gentle to firm pressure on different pressure points of the feet, hands, and ears.
+                                                                   "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="right"
+                    android:text="2000"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1230dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="50dp"
+                android:id="@+id/c8">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="182dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/head"></ImageView>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="HEAD MASSAGE"
+                    android:id="@+id/text15"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:text="A head massage may help relieve stress and reduce tension.It may also ease migraine or headache pain, lower blood pressure
+                                                                     "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/text16"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="right"
+                    android:text="500"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="322dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="left"
+                    android:text="Rs"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="1420dp"></TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
